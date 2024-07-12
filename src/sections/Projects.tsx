@@ -8,61 +8,59 @@ function Projects() {
   const projectsData = [
     {
       image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      projectName: "Potato Disease",
+      projectLink: "https://github.com/DeonSamuel/Potato-Disease-Detector",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "This is a end to end application that detects potato plant diseases. Detection involves identifying and diagnosing diseases affecting potato plants by analyzing their leaves. Common diseases include late blight, early blight, and bacterial wilt. Use of CNN models to detect these diseases for ease of farmers.",
       projectTech: [
         "React",
-        "Redux Toolkit",
-        "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
+        "FastApi",
+        "CSS",
+        "Jupyter Notebook",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/DeonSamuel/Potato-Disease-Detector/blob/main/Potato-disease/training.ipynb",
+        externalLink: "https://github.com/DeonSamuel/Potato-Disease-Detector",
       },
     },
     {
-      image: "/project2.png",
-      projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      image: "/project2.jpg",
+      projectName: "Threads Clone",
+      projectLink: "https://github.com/DeonSamuel/ThreadsClone",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+        "This is a social media app made with React and Node.js that sends real-time messages and is highly scalable. Threads developed by Meta (formerly Facebook), is designed for close friends and intimate sharing. ",
       projectTech: [
         "React",
-        "Sockets",
+        "Socket.io",
         "Node.js",
         "Express",
         "MongoDB",
-        "Styled Components",
+        "Chakra UI",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/DeonSamuel/ThreadsClone",
+        externalLink: "https://github.com/DeonSamuel/ThreadsClone",
       },
     },
-    {
-      image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
-      projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
-      projectTech: [
-        "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "",
-      },
-    },
+    // {
+    //   image: "/project3.png",
+    //   projectName: "Netflix App",
+    //   projectLink: "https://netlify.com",
+    //   projectDescription:
+    //     "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+    //   projectTech: [
+    //     "React",
+    //     "Node.js",
+    //     "Firebase",
+    //     "MongoDB",
+    //     "Express",
+    //     "Redux Toolkit",
+    //   ],
+    //   projectExternalLinks: {
+    //     github: "",
+    //     externalLink: "",
+    //   },
+    // },
   ];
   return (
     <div className="projects" id="work">
