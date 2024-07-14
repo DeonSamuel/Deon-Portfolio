@@ -35,18 +35,24 @@ function About() {
               Kali 
             </Link>
             {" "},in a hackathon,
-            which is a one stop center for all queries regarding women empowerment.
-            
+            which is a one stop center for all queries regarding women empowerment.            
+          </p>
+          <p className="about-grid-info-text">
+            Moved on to make even more dynamic websites using MERN stack. My first
+            major website was   {" "}
+            <Link href="https://threads-deon.onrender.com/" className="link" target="_blank">
+              Threads Clone 
+            </Link>
+            {" "}, which is real time chat enabled social media app.            
           </p>
           <p className="about-grid-info-text">
             Fast-forward to today, I have grown a keen interest in making beautiful and responsive 
             websites along with making projects and understanding current trends using data science
             and Machine Learning concepts {" "}
-            <Link href="https://github.com/" className="link" target="_blank">
-              New Project.
+            <Link href="https://github.com/DeonSamuel/Potato-Disease-Detector" className="link" target="_blank">
+              Potato-Disease-Detector.
             </Link>
           </p>
-
           <p className="about-grid-info-text">
             Additionally, I am very intrigued in the art of public speaking and have dawned the 
             stage on multiple occasions. I am also the current head of my college&apos;s public speaking 
@@ -69,10 +75,10 @@ function About() {
             <li className="about-grid-info-list-item">Express</li>
             <li className="about-grid-info-list-item">Node.js</li>
             <li className="about-grid-info-list-item">Machine Learning</li>
-            <li className="about-grid-info-list-item">JavaScript</li>
-            <li className="about-grid-info-list-item">Flask</li>
-            <li className="about-grid-info-list-item">Material UI</li>
-            <li className="about-grid-info-list-item">CSS</li>
+            <li className="about-grid-info-list-item">OpenCV</li>
+            <li className="about-grid-info-list-item">FastAPI</li>
+            <li className="about-grid-info-list-item">Chakra UI</li>
+            <li className="about-grid-info-list-item">Socket.io</li>
           </ul>
         </div>
         <div className="about-grid-photo">

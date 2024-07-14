@@ -26,9 +26,9 @@ function Projects() {
     {
       image: "/project2.jpg",
       projectName: "Threads Clone",
-      projectLink: "https://github.com/DeonSamuel/ThreadsClone",
+      projectLink: "https://threads-deon.onrender.com/",
       projectDescription:
-        "This is a social media app made with React and Node.js that sends real-time messages and is highly scalable. Threads developed by Meta (formerly Facebook), is designed for close friends and intimate sharing. ",
+        "This is a social media app made with React and Node.js that sends real-time messages and is highly scalable. Threads developed by Meta (formerly Facebook), is designed for close friends and intimate sharing.  ",
       projectTech: [
         "React",
         "Socket.io",
@@ -39,7 +39,7 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: "https://github.com/DeonSamuel/ThreadsClone",
-        externalLink: "https://github.com/DeonSamuel/ThreadsClone",
+        externalLink: "https://threads-deon.onrender.com/",
       },
     },
     // {
