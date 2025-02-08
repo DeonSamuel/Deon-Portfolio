@@ -26,15 +26,13 @@ function Experience() {
       ],
     },
     {
-      name: "Enrich Hosting ",
-      role: "API Web Developer",
-      url: "https://www.linkedin.com/company/enrich-host/about/",
-      start: "October 2023",
-      end: "November 2023",
+      name: "Boomi ",
+      role: "SDE Intern",
+      url: "https://www.linkedin.com/company/boomi-inc/",
+      start: "January 2025",
+      end: "current",
       shortDescription: [
-        "Enrich Hosting Private Limited builds software products and provides software services to clients",
-        "It is related to web hosting, web design, backend and frontend development.",
-        "Clean and functional UI for the family tree website",
+        "Boomi is the platform for intelligent connectivity and automation. Connect everyone to everything, anywhere.",
       ],
     },
   ];

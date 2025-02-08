@@ -37,7 +37,7 @@ function Hero() {
           delay: 1.05,
         }}
       >
-        I am a Web Developer and Data Analyst.
+        I am a Web Developer and Machine Learning Engineer.
       </motion.h3>
       <motion.p
         className="hero-text"

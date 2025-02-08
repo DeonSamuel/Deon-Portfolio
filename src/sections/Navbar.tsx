@@ -11,7 +11,7 @@ function Navbar() {
   const sectionLinks = [
     { name: "About", link: "/#about" },
     { name: "Experience", link: "/#experience" },
-    { name: "Work", link: "/#work" },
+    { name: "Projects", link: "/#work" },
     {
       name: "Contact",
       link: "/#contact",
